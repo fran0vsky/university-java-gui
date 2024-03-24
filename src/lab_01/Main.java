@@ -59,7 +59,7 @@ public class Main extends Frame {
         return switch ((int)(Math.random()*2)){
             case 0 -> new Rect(
                     (int)(Math.random()*640),
-                    (int)(Math.random()*40),
+                    (int)(Math.random()*480),
                     50, 150
             );
             default -> new Circle(
