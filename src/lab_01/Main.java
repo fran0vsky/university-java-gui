@@ -64,7 +64,7 @@ public class Main extends Frame {
             );
             default -> new Circle(
                     (int)(Math.random()*640),
-                    (int)(Math.random()*48),
+                    (int)(Math.random()*480),
                     35
             );
         };
