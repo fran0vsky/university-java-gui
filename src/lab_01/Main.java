@@ -72,7 +72,7 @@ public class Main extends Frame {
 
     @Override
     public void paint(Graphics g) {
-        for(int i=0; i<countFigure; i++)
+        for(int i=0; i<countFigures; i++)
             figures[i].draw(g);
     }
 }
